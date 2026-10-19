@@ -1,0 +1,60 @@
+{
+  "seo_title": "Merge clipboard clips on macOS",
+  "seo_description": "ClipMergeEditor is a free, open-source Mac clipboard tool. Select several clips, merge them with a separator, clean up the text, and paste it as one.",
+  "hero_title_line1": "Many clips in.",
+  "hero_title_accent": "One clean paste out.",
+  "hero_sub": "Select several items from your clipboard history, merge them with the separator you choose, tidy the result in the built-in editor, and paste it as one clip. Press ⌘⇧M to open it.",
+  "features_title": "Merge, edit, and paste once.",
+  "features_sub": "Everything is built around one workflow: combine copied text, clean it up, and put it back on the clipboard.",
+  "features": [
+    {
+      "icon": "clipboard",
+      "title": "Multi-select and merge",
+      "desc": "Hold ⌘ or ⇧ to pick several clips, then join them in the order copied or the order selected. Choose New Line, Blank Line, Comma and Space, Tab, or your own separator."
+    },
+    {
+      "icon": "text",
+      "title": "Built-in text editor",
+      "desc": "The merged result opens in a monospaced editor with standard undo and a live line and character count. You can also open any single clip in it."
+    },
+    {
+      "icon": "sliders",
+      "title": "One-click cleanup tools",
+      "desc": "Trim whitespace, remove duplicate lines (keeping the first), sort lines, or number them. Then Copy the result or Save as Clip to add it to your history."
+    },
+    {
+      "icon": "keyboard",
+      "title": "Global hotkey and menu bar",
+      "desc": "Open the window from anywhere with ⌘⇧M, or change the shortcut in Settings. The menu bar item lists your last five clips for quick copy and lets you pause recording."
+    },
+    {
+      "icon": "eye",
+      "title": "Privacy-minded recording",
+      "desc": "Concealed and transient pasteboard types, such as those from password managers, are skipped. You can also ignore specific apps by name or bundle identifier."
+    },
+    {
+      "icon": "clock",
+      "title": "Searchable clipboard history",
+      "desc": "Keeps up to 200 text clips (10 to 200, configurable), with search, optional duplicate skipping, and launch at login. Only plain text is recorded."
+    }
+  ],
+  "permissions_step": "No special permissions are required; the app reads the clipboard but never asks for Accessibility, Screen Recording, or Microphone access.",
+  "faq": [
+    {
+      "q": "Is ClipMergeEditor really free and open source?",
+      "a": "Yes. It is released under the MIT license, with no account, subscription, or paid tier. If you find it useful, there is an optional Support / Donate button in the menu bar and in Settings."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "None beyond normal clipboard access. It does not use Accessibility, Screen Recording, or Microphone, and its global hotkey works without Accessibility permission. It never pastes automatically; it only writes to the clipboard when you press Copy or pick a menu bar clip."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Your history is a JSON file at ~/Library/Application Support/ClipMergeEditor/history.json on your Mac. The app makes no network connections, so nothing leaves your machine."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to launch it, or build it from source with Xcode."
+    }
+  ]
+}

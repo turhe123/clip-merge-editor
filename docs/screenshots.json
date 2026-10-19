@@ -1,0 +1,5 @@
+[
+  {"file":"01-merge.png","caption":"Four clips selected from the clipboard history are merged into one editable result, one per line, ready to copy or save as a new clip.","alt":"ClipMergeEditor main window with four selected clips merged in the editor"},
+  {"file":"02-menu-bar.png","caption":"The menu bar item lists your five most recent clips for one-click copy, plus Pause Recording, Settings and Support.","alt":"ClipMergeEditor menu bar menu showing recent clips"},
+  {"file":"03-cleanup-tools.png","caption":"Sort Lines and Number Lines turn the merged clips into a tidy numbered list with a single click each.","alt":"Merged clips sorted and numbered in the ClipMergeEditor editor"}
+]

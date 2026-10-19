@@ -1,5 +1,7 @@
 # ClipMergeEditor
 
+**🌐 Website:** [turhe123.github.io/clip-merge-editor](https://turhe123.github.io/clip-merge-editor/)
+
 **Select several clipboard entries, merge them with a separator, edit the result, and paste it as one clip.**
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -31,7 +33,17 @@ ClipMergeEditor is a free, open-source, 100% native, backend-free alternative to
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-merge.png" alt="ClipMergeEditor main window with four selected clips merged in the editor" width="720"></p>
+
+<p align="center"><em>Four clips selected from the clipboard history are merged into one editable result, one per line, ready to copy or save as a new clip.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-menu-bar.png" alt="ClipMergeEditor menu bar menu showing recent clips" width="560"></p>
+
+<p align="center"><em>The menu bar item lists your five most recent clips for one-click copy, plus Pause Recording, Settings and Support.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-cleanup-tools.png" alt="Merged clips sorted and numbered in the ClipMergeEditor editor" width="560"></p>
+
+<p align="center"><em>Sort Lines and Number Lines turn the merged clips into a tidy numbered list with a single click each.</em></p>
 
 ## Install
 
